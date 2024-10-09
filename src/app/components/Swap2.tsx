@@ -189,7 +189,7 @@ export default function Component() {
   }
 
   return (
-    <div className="relative w-full font-poppins max-w-md mx-auto p-6 bg-[#FFFFFF] bg-opacity-[5%] text-white rounded-3xl border border-[#ED8FDD] shadow-lg">
+    <div className="relative w-full font-poppins max-w-md mx-auto p-3 py-6 md:p-6 bg-[#FFFFFF] bg-opacity-[5%] text-white rounded-3xl border border-[#ED8FDD] shadow-lg">
       {error && (
         <div className="mb-4 p-2 bg-red-500 bg-opacity-20 rounded text-red-300 text-sm">
           {error}

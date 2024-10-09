@@ -3,7 +3,7 @@ import Component from "../components/Swap2";
 
 const Page = () => {
   return (
-    <div className="relative z-0 flex flex-col items-center justify-center min-h-screen">
+    <div className="relative z-0 flex flex-col items-center justify-center min-h-screen px-4 lg:px-24">
       <div
         className="absolute -z-[1] top-0 left-0"
         style={{
