@@ -20,3 +20,16 @@
 .font-oswald {
   font-family: var(--font-oswald);
 }
+
+/* Hide scrollbar but still allow scrolling */
+.element {
+  overflow-x: auto; /* Enables horizontal scrolling */
+  overflow-y: hidden; /* Prevents vertical scrolling */
+  white-space: nowrap; /* Ensures content doesn't wrap */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.element::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
