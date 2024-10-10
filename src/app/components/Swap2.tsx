@@ -22,7 +22,7 @@ const CHOCCY_TOKEN: Omit<Token, "price" | "image"> = {
 };
 
 const STATIC_TOKENS: Omit<Token, "price" | "image">[] = [
-  { id: "chromia", symbol: "CHR", name: "Chromia" },
+  { id: "chromaway", symbol: "CHR", name: "Chromia" },
   { id: "tether", symbol: "USDT", name: "Tether" },
   { id: "ethereum", symbol: "ETH", name: "Ethereum" },
   { id: "bitcoin", symbol: "BTC", name: "Bitcoin" },
