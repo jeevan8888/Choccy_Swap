@@ -370,7 +370,17 @@ export default function Component() {
                   className="w-full text-left px-3 py-2 rounded hover:bg-[#ED8FDD] hover:bg-opacity-[8%] transition-colors"
                 >
                   <div className="flex items-center space-x-2">
-                    <div className="w-8 h-8 flex-shrink-0"></div>
+                    <div className="w-8 h-8 flex-shrink-0">
+                      {token.image && (
+                        <Image
+                          src={token.image}
+                          alt={token.symbol}
+                          width={32}
+                          height={32}
+                          className="rounded-full"
+                        />
+                      )}
+                    </div>
                     <div className="flex flex-col flex-grow overflow-hidden">
                       <div className="flex items-center space-x-2">
                         <span className="font-medium">{token.symbol}</span>
